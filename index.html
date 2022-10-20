@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate your Tip!</title>
+    <link rel="stylesheet" href="/scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="my-5 flex-center">
+        <h1>SPLI</h1>
+        <h1>TTER</h1>
+      </div>
+
+      <div class="wrapper p-2">
+        <div class="first">
+          <label for="number">Bill</label>
+          <div class="input-icons mb-2">
+            <i class="fa-solid fa-dollar-sign icon"></i>
+            <input
+              name="bill"
+              id="bill"
+              class="mb-1 input"
+              type="number"
+              placeholder="0"
+              value=""
+            />
+          </div>
+
+          <div class="btn-wrapper mb-2">
+            <label for="button">Select Tip %</label>
+            <div class="btn-grid my-1">
+              <button class="btn1 btnvalue" value="5">5%</button>
+              <button class="btn2 btnvalue" value="10">10%</button>
+              <button class="btn3 btnvalue" value="15">15%</button>
+              <button class="btn4 btnvalue" value="25">25%</button>
+              <button class="btn5 btnvalue" value="50">50%</button>
+              <input
+                id="custom"
+                type="number"
+                placeholder="Custom"
+                class="btn6 input-button btn-value input"
+                value=""
+              />
+            </div>
+          </div>
+
+          <div class="peoplewrapper">
+            <p>Number of People</p>
+            <p class="if-zero-number"></p>
+          </div>
+
+          <div class="input-icons">
+            <i class="fa-solid fa-user icon"></i>
+            <input
+              id="people"
+              class="mb-1 numberofpeople input"
+              type="number"
+              value=""
+              placeholder="0"
+            />
+          </div>
+        </div>
+
+        <div class="second p-2">
+          <div class="results">
+            <div class="result-wrapper mb-3">
+              <div class="description">
+                <h2>Tip Amount</h2>
+                <h3>/ person</h3>
+              </div>
+              <span>$</span><span id="result-tip">0.00</span>
+            </div>
+
+            <div class="result-wrapper mb-3">
+              <div class="description">
+                <h2>Total</h2>
+                <h3>/ person</h3>
+              </div>
+              <span>$</span><span id="result-total">0.00</span>
+            </div>
+          </div>
+          <button id="#reset" class="reset" disabled>RESET</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>

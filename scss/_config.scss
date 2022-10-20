@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Space Mono";
+  src: url(/fonts/SpaceMono-Bold.ttf);
+  font-weight: 700;
+}
+
+$font-stack: "Space Mono", monospace;
+$color-very-dark-cyan: hsl(183, 100%, 15%);
+$color-dark-grayish-cyan: hsl(186, 14%, 43%);
+$color-grayish-cyan: hsl(184, 14%, 56%);
+$color-light-grayish-cyan: hsl(185, 41%, 84%);
+$color-very-light-grayish-cyan: hsl(189, 41%, 97%);
+$color-white: hsl(0, 0%, 100%);
+$color-pissgruen: #9fe8df;
