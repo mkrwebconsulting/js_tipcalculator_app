@@ -4,4 +4,4 @@ Stack: HTML, CSS, SASS, JS
 Hosted on AWS
 
 Check App here:
-
+https://main.d2l79n8jh4busp.amplifyapp.com/
