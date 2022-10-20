@@ -1,6 +1,6 @@
 # Tip calculator app
 
-Stack: HTML, CSS, SASS, JS
+Stack: HTML, CSS, SCSS, JS
 
 Hosted on AWS
 
